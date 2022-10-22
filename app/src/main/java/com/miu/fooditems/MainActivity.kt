@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import com.miu.fooditems.FoodsActivity.Companion.EXTRA_FOOD
 import com.miu.fooditems.adapter.FoodAdapter
-import kotlinx.android.synthetic.main.activity_foods.*
+
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), FoodAdapter.OnFoodClickListener  {
