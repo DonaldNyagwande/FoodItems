@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import com.miu.fooditems.FoodsActivity.Companion.EXTRA_FOOD
 import com.miu.fooditems.adapter.FoodAdapter
 
 import kotlinx.android.synthetic.main.activity_main.*
@@ -49,7 +48,7 @@ class MainActivity : AppCompatActivity(), FoodAdapter.OnFoodClickListener  {
     override fun onFoodClicked(food: Food) {
         val intent = Intent(this, FoodsActivity::class.java)
 
-        intent.putExtra(EXTRA_FOOD, food)
+        intent.putExtra(FoodsActivity.EXTRA_FOOD, food)
 
         startActivity(intent)
     }
