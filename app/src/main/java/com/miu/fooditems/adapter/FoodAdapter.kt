@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.miu.fooditems.Food
 import com.miu.fooditems.R
+import kotlinx.android.synthetic.main.activity_foods.view.*
 import kotlinx.android.synthetic.main.activity_main.view.*
 
 
